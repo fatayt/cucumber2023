@@ -25,4 +25,3 @@ public class LoginPage {
     @FindBy(id="proceed-link")
     public WebElement proceedLink;
 }
-}
