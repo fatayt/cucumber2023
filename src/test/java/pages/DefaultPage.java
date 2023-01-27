@@ -19,4 +19,7 @@ public class DefaultPage {
 
     @FindBy(partialLinkText = "Room reservations")
     public WebElement roomReservationsLink;
+
+    @FindBy(xpath = "//a[@class='dropdown-toggle']")
+    public WebElement manager;
 }

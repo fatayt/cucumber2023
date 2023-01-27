@@ -4,18 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8f09dd6-d400-4636-abaf-7f18355249a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DefaultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day16_C6_LoginStepDefinitions.java" afterDir="false" />
+    <list default="true" id="b8f09dd6-d400-4636-abaf-7f18355249a4" name="Changes" comment="cucumber2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DataTablesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DatatablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RoomRezervasyonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/DatatableRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FailedScenarioRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day17_C7_Room_Rezervasyon_Step_Definitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day18_C8_Reusable_Step_Definitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day19_C10_DataTablesStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/HW01_DatatableStepDefinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/StaleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DT001_DataTable.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Sprint_13.06/Eagles/Day17_C6_US100451_oda_rezervasyonu.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Sprint_21_07/Fener/US1000452_Excel_ile_Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/odevExcelOrnek.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/dataTable.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/data_tables_workbook.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/smoketestdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DefaultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day15_C1_GoogleSearchStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day15_C1_GoogleSearchStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day16_C6_LoginStepDefinations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Day16_C2_parameterizing_feature_file_string.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Day16_C2_parameterizing_feature_file_string.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Day16_C3_scenario_outline_1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Day16_C3_scenario_outline_1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Day16_C4_scenario_outline_2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Day16_C4_scenario_outline_2.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day16_C6_LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day16_C6_LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Sprint_13.05/Eagles/Day16_C5_US100450_kullanici_manager_kullanici_bilgilerini_kullanarak_login_yapmali.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Sprint_13.05/Eagles/Day16_C5_US100450_kullanici_manager_kullanici_bilgilerini_kullanarak_login_yapmali.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/firstfeaturefile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/firstfeaturefile.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +59,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="19" />
+  </component>
   <component name="ProjectId" id="2KDUDpjpNzUap5ewkmsdQ2QggUZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,18 +73,26 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: ">
-    <configuration name="Feature: Day16_C4_scenario_outline_2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deneme\IdeaProjects\cucumber2023\src\test\resources\testdata" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: deneme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Day16_C4_scenario_outline_2.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/deneme.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber2023" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Day16_C4_scenario_outline_2" />
+      <option name="SUGGESTED_NAME" value="Feature: deneme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -69,14 +104,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: firstfeaturefile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: DT01_Datatable_with_Scenario_Outline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/firstfeaturefile.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/deneme.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber2023" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: firstfeaturefile" />
+      <option name="NAME_FILTER" value="^DT01_Datatable_with_Scenario_Outline$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^DT01_Datatable_with_Scenario_Outline$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: DT01_Datatable_with_Scenario_Outline" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,22 +124,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Sprint_13.05/Eagles/Day16_C5_US100450_kullanici_manager_kullanici_bilgilerini_kullanarak_login_yapmali.feature" />
-      <option name="GLUE" value="stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="DatatableRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cucumber2023" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.DatatableRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,12 +154,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: " />
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: Day16_C4_scenario_outline_2" />
-        <item itemvalue="Cucumber Java.Feature: firstfeaturefile" />
+        <item itemvalue="JUnit.DatatableRunner" />
+        <item itemvalue="Cucumber Java.Scenario: DT01_Datatable_with_Scenario_Outline" />
+        <item itemvalue="Cucumber Java.Feature: deneme" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +188,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673508542367</updated>
     </task>
+    <task id="LOCAL-00001" summary="cucumber2">
+      <created>1673620969362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673620969362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,5 +208,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cucumber2" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber2" />
   </component>
 </project>
